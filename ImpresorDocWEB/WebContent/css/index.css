@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: transparent;
+}
+
+.centrarHV{
+overflow: hidden;
+position: absolute;
+height: 200px;
+width: 300px;
+left: 50%;
+top: 50%;
+margin-top: -100px;
+margin-left: -150px;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:application="http://java.sun.com/xml/ns/javaee/application_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" id="Application_ID" version="5">
+  <display-name>ImpresorDocWEBEAR</display-name>
+  <module>
+    <web>
+      <web-uri>ImpresorDocWEB.war</web-uri>
+      <context-root>ImpresorDocWEB</context-root>
+    </web>
+  </module>
+  <module>
+    <java>groovy-all-2.0.1.jar</java>
+  </module>
+  <library-directory>APP-INF/lib</library-directory>
+</application>
